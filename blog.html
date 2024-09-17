@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Blog</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header" class="header-bg">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container d-flex align-items-center justify-content-between">
+                <a class="navbar-brand" href="index.html">Concerned Teachers <span>Association</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html"  class="active">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+      <div class="row">
+          <!-- Sidebar (Left Section) -->
+          <div class="col-md-4">
+              <!-- recent start -->
+              <div class="single-blog-page">
+                  <div class="left-blog">
+                      <h4>Recent Post</h4>
+                      <div class="recent-post">
+                          <div class="recent-single-post">
+                              <div class="post-img">
+                                  <a href="#"><img src="assets/img/blog/1.jpg" alt=""></a>
+                              </div>
+                              <div class="pst-content">
+                                  <p><a href="#">Redug Lerse dolor sit amet consect adipis elit.</a></p>
+                              </div>
+                          </div>
+                          <!-- Repeat similar structure for other posts -->
+                      </div>
+                  </div>
+              </div>
+              <!-- recent end -->
+  
+              <!-- Categories -->
+              <div class="single-blog-page">
+                  <div class="left-blog">
+                      <h4>Categories</h4>
+                      <ul>
+                          <li><a href="#">Portfolio</a></li>
+                          <li><a href="#">Project</a></li>
+                          <li><a href="#">Design</a></li>
+                          <!-- Repeat for other categories -->
+                      </ul>
+                  </div>
+              </div>
+  
+              <!-- Archive -->
+              <div class="single-blog-page">
+                  <div class="left-blog">
+                      <h4>Archive</h4>
+                      <ul>
+                          <li><a href="#">07 July 2016</a></li>
+                          <li><a href="#">29 June 2016</a></li>
+                          <!-- Repeat for other archive items -->
+                      </ul>
+                  </div>
+              </div>
+          </div>
+  
+          <!-- Blog Post Content (Right Section) -->
+          <div class="col-md-8">
+              <section id="blog-details" class="blog-details-area py-5">
+                  <div class="post-information">
+                      <h2>Blog Post Title</h2>
+                      <div class="entry-meta">
+                          <span><i class="fas fa-calendar-alt"></i> Sep 10, 2024</span>
+                          <span><i class="fas fa-user"></i> <a href="#">John Doe</a></span>
+                          <span><i class="fas fa-comment"></i> <a href="#">5 Comments</a></span>
+                      </div>
+                      <div class="entry-content">
+                          <p>Lorem ipsum dolor sit amet...</p>
+                          <blockquote>"Education is the most powerful weapon..."</blockquote>
+                          <p>Vestibulum ante ipsum primis...</p>
+  
+                          <!-- Social Sharing Section -->
+                          <div class="social-sharing">
+                              <h3>Share This Post</h3>
+                              <div class="sharing-icon">
+                                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                  <a href="#"><i class="fab fa-twitter"></i></a>
+                                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <!-- Comments Section -->
+                  <div class="single-post-comments">
+                      <h3>5 Comments</h3>
+                      <ul class="comments-list">
+                          <li>
+                              <div class="comments-list-img">
+                                  <img src="img/commenter1.jpg" alt="Commenter Avatar">
+                              </div>
+                              <div class="comments-content-wrap">
+                                  <span><b>Jane Smith</b> - <span class="post-time">2 hours ago</span></span>
+                                  <p>Great article!</p>
+                              </div>
+                          </li>
+                      </ul>
+                  </div>
+  
+                  <!-- Comment Form Section -->
+                  <div class="comment-respond">
+                      <h3 class="comment-reply-title">Leave a Comment</h3>
+                      <form action="#" method="post">
+                          <p>Your email address will not be published.</p>
+                          <input type="text" name="name" placeholder="Your Name" required>
+                          <input type="email" name="email" placeholder="Your Email" required>
+                          <textarea id="message-box" name="message" placeholder="Your Comment" required></textarea>
+                          <input type="submit" value="Post Comment">
+                      </form>
+                  </div>
+              </section>
+          </div>
+      </div>
+  </div>
+  
+    <footer>
+        <div class="footer-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="footer-content">
+                  <div class="footer-head">
+                    <div class="footer-logo">
+                      <h2><span>Concerned Teachers</span>Association</h2>
+                    </div>
+    
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                    <div class="footer-icons">
+                      <ul>
+                        <li>
+                          <a href="#"><i class="bi bi-facebook"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="bi bi-twitter"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="bi bi-instagram"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="bi bi-linkedin"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end single footer -->
+              <div class="col-md-4">
+                <div class="footer-content">
+                  <div class="footer-head">
+                    <h4>information</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                    </p>
+                    <div class="footer-contacts">
+                      <p><span>Tel:</span> +123 456 789</p>
+                      <p><span>Email:</span> contact@example.com</p>
+                      <p><span>Working Hours:</span> 9am-5pm</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end single footer -->
+              <div class="col-md-4">
+                <div class="footer-content">
+                  <div class="footer-head">
+                    <h4>Instagram</h4>
+                    <div class="flicker-img">
+                      <a href="#"><img src="assets/img/portfolio/1.jpg" alt=""></a>
+                      <a href="#"><img src="assets/img/portfolio/2.jpg" alt=""></a>
+                      <a href="#"><img src="assets/img/portfolio/3.jpg" alt=""></a>
+                      <a href="#"><img src="assets/img/portfolio/4.jpg" alt=""></a>
+                      <a href="#"><img src="assets/img/portfolio/5.jpg" alt=""></a>
+                      <a href="#"><img src="assets/img/portfolio/6.jpg" alt=""></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-area-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="copyright text-center">
+                  <p>
+                    &copy; Copyright <strong>educaBlog</strong>. All Rights Reserved
+                  </p>
+                </div>
+                <div class="credits">
+                  Designed by <a href="">Twinkle0Bug</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer><!-- End  Footer -->
+    
+      <div id="preloader"></div>
+      <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
